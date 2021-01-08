@@ -1,0 +1,50 @@
+commande man : rechercher des informations une commande (nom,synopsis,description,options,exemples,auteur,bogues,copyright).
+commande ls : lister les fichiers d'un répertoire. 
+ls -l : permet lister les attributs des fichiers.
+ls -d :affiche uniquement les répertoirs.
+ls -a :lister tous les fichiers du répertoir et compis les fichiers caché.
+ls -m :affiche les fichiers en séparnt par une virgule.
+ld -h :pour les tailles en unités <<human readable>>.
+ls -r :affiche les fichiers en order alphabétiquei inverse.
+ls -t :affiche le plus récents en premier.
+ls -lct :permet de trier les fichiers et répertoires par date de modification décroissante
+ls /etc/ :affiche le contenu du répertoire.
+lsusb :affiche les périphériques PCI ou USB connectés.
+commande pwd :ou suis-je?hériques PCI ou USB connectés.
+commande cd :se déplacer dans les répertoirs(change directory).
+cd .. :remont d'un niveau.
+cd / :retourne à la racine.
+cd - :retourne au répertoire précédent.
+cd /usr/bin/ ou usr/bin :se place dans le répertoire /usr/bin/.
+cd ~ :méne au répertoire de l'utilisateur courant.
+commande mkdir : crée un répertoire.
+commande rmdir :suprimer un répertoire.
+commande touche :crée un fichier et met à jour les dates d'aceés des fichiers.
+commande cp :copier un fichier on un répertoire(copy).
+commande ln : link, crée un lien enter deux fichiers l'option.
+commande cat :
+Équivalent Windows : type
+Signification : concatenate
+Affiche le contenu d'un fichier
+Options les plus fréquentes :
+-n : Affiche les numéros de ligne
+-v : Affiche les caractères de contrôles.
+commande more:
+Équivalent Windows : more
+Signification : more
+Affiche un fichier page par page
+Options les plus fréquentes :
+-s : Regroupe les lignes vides consécutives en une seule
+-f : Ne coupe pas les lignes longues
+commande less :
+Équivalent Windows : less
+Signification : less
+Affiche un fichier en permettant la navigation, ainsi que certaines possibilités de vi (par ex: la recherche)
+Options les plus fréquentes :
+-e ou -E : Quitte automatiquement la deuxième fois que la fin du fichier est atteinte, ou dès la première fois avec -E.
+-F : Quitte automatiquement si le fichier tient sur le terminal.
+-m ou -M : Prompt long a la more.
+-r ou -R : Autorise les caractères spéciaux.
+-x : Règle la taille des tabulations.
+-~ : ne comble pas les lignes vides par des ~
+
